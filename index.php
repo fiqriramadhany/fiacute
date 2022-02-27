@@ -238,7 +238,7 @@
 			text = "Good Evening, Fia <a class=\"love\" href=\"#\" onclick=jadian()>&hearts;</a>";
 		}else if(H < 22){
 			text = "Siapin Buat Besok! Belajar <a class=\"love\" href=\"#\" onclick=alert('Semangat!')>&hearts;</a>"
-		}else if(H < 23){
+		}else if(H < 24){
 			text = "Good Night, Fia <a class=\"love\" href=\"#\" onclick=alert('Met tidurr!')>&hearts;</a>";
 		}
 
