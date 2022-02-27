@@ -207,7 +207,7 @@
 			return 0;
 		}else if(H < 22){
 			return 0;
-		}else if(H < 23){
+		}else if(H < 24){
 			return 0;
 		}else{
 			return 0;
