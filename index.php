@@ -1,5 +1,5 @@
                                                                                         
-<title>Kamu~</title>
+<title>Mbak "A"~</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
@@ -156,7 +156,7 @@
 	<div class="jam" id="time">
 		00:00:00
 	</div>
-	<div class="ucapan" id="Kamu">
+	<div class="ucapan" id="Mbak "A"">
 
 	</div>
 </div>
@@ -223,33 +223,33 @@
 		}
 	}
 
-	function Kamu(){
+	function Mbak "A"(){
 		if(H < 4){
 			text = "Jangan Begadang, Tidur. <a class=\"love\" href=\"#\" style=\"color: black;\" onclick=jadian()>&hearts;</a>";
 		}else if (H < 9){
-			text = "Good Morning, Kamu <a class=\"love\" style=\"color: black;\" href=\"#\" onclick=jadian()>&hearts;</a>";
+			text = "Good Morning, Mbak "A" <a class=\"love\" style=\"color: black;\" href=\"#\" onclick=jadian()>&hearts;</a>";
 		}else if(H <= 12){
 			text = "Jangan Lupa Makan Siang <a class=\"love\" href=\"#\" style=\"color: black;\" onclick=jadian()>&hearts;</a>";
 		}else if(H < 15){
-			text = "Good Afternoon, Kamu <a class=\"love\" href=\"#\" onclick=jadian()>&hearts;</a>";
+			text = "Good Afternoon, Mbak "A" <a class=\"love\" href=\"#\" onclick=jadian()>&hearts;</a>";
 		}else if(H < 19){
-			text = "Have A Nice Day, Kamu <a class=\"love\" href=\"#\" style=\"color: black;\" onclick=jadian()>&hearts;</a>";
+			text = "Have A Nice Day, Mbak "A" <a class=\"love\" href=\"#\" style=\"color: black;\" onclick=jadian()>&hearts;</a>";
 		}else if(H < 21){
-			text = "Good Evening, Kamu <a class=\"love\" href=\"#\" onclick=jadian()>&hearts;</a>";
+			text = "Good Evening, Mbak "A" <a class=\"love\" href=\"#\" onclick=jadian()>&hearts;</a>";
 		}else if(H < 22){
 			text = "Siapin Buat Besok! Belajar <a class=\"love\" href=\"#\" onclick=alert('Semangat!')>&hearts;</a>"
 		}else if(H < 24){
-			text = "Good Night, Kamu <a class=\"love\" href=\"#\" onclick=alert('Met tidurr!')>&hearts;</a>";
+			text = "Good Night, Mbak "A" <a class=\"love\" href=\"#\" onclick=alert('Met tidurr!')>&hearts;</a>";
 		}
 
-		document.getElementById("Kamu").innerHTML = text;
+		document.getElementById("Mbak "A"").innerHTML = text;
 	}
 
 	function jadian(){
-		document.getElementById("Kamu").innerHTML = "Jadian yuk? <a class=\"love\" onclick=jadian()>&hearts;</a>";
+		document.getElementById("Mbak "A"").innerHTML = "Jadian yuk? <a class=\"love\" onclick=jadian()>&hearts;</a>";
 	}
 	waktu();
 	background();
-	Kamu();
+	Mbak "A"();
 	
 </script>
